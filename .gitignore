@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated output
+tmp/
+output/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+
+/backend/.env
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/.next/
+**/venv/
+**/.venv/
+**/__pycache__/

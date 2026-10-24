@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic-settings
+psycopg[binary]
+psycopg-pool
+# API smoke tests
+httpx2
+pytest
